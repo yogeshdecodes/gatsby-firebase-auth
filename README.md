@@ -47,6 +47,7 @@ GATSBY_FIREBASE_APP_ID=<YOUR_FIREBASE_APP_ID>
 npm install
 gatsby develop
 ```
+Note- one gotcha is you have to install first `npm i firebase@latest` before running `npm install`. sometime it have issues so we have to manually examine and maybe also need to run `npm fix audit` to fix vulnerabilities. so its a good practise to install big packages individually before running `npm i`.
 
 # Contributing
 
